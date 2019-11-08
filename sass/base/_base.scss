@@ -35,7 +35,8 @@ body {
     display: flex;
     justify-content: center;
     ul {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
       list-style-type: none;
       gap: 6rem;
 
@@ -92,7 +93,8 @@ p {
 }
 .social-links {
   position: absolute;
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -108,7 +110,8 @@ p {
   bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   flex-direction: column;
   justify-content: center;
   align-items: center;
